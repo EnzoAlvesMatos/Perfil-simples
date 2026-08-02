@@ -1,98 +1,115 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 
 }
+
 @font-face {
     font-family: "fontGamer";
     src: url("font/Gameplay.ttf") format(opentype);
     font-weight: normal;
 }
-:root{
- --texto: Arial, Helvetica, sans-serif;
- --titulo: "fontGamer";
- --cor0: #2b1f33;
- --cor1: #000aa3;
- --cor2: #2b00a3;
- --cor3: #6100a3;
- --cor4: #003da3;
- --cor5: #9600a3;
- --cor6: #9500a348;
+
+:root {
+    --texto: Arial, Helvetica, sans-serif;
+    --titulo: "fontGamer";
+    --cor0: #2b1f33;
+    --cor1: #000aa3;
+    --cor2: #2b00a3;
+    --cor3: #6100a3;
+    --cor4: #003da3;
+    --cor5: #9600a3;
+    --cor6: #9500a348;
 
 }
-body{
- padding-top: 30px;
- padding-bottom: 30px;
-  font-family: var(--texto);
-  background-image: linear-gradient(to bottom, var(--cor3), var(--cor0));
-}
-main{
+
+body {
     padding-top: 30px;
- padding-bottom: 30px;
+    padding-bottom: 30px;
+    font-family: var(--texto);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor0));
+}
+
+main {
+    padding-top: 30px;
+    padding-bottom: 30px;
     width: 80%;
     background-color: white;
     margin: auto;
     border-radius: 1%;
 }
-p{  line-height: 2em;
+
+p {
+    line-height: 2em;
     margin-left: 30px;
     text-align: left;
     width: 80%;
     text-indent: 10px;
 }
-h1{
+
+h1 {
     color: var(--cor3);
     font-family: var(--titulo);
     text-align: center;
     font-size: 3em;
 }
-h2{
+
+h2 {
     color: var(--cor5);
     font-family: var(--titulo);
     text-indent: 30px;
-    background-image: linear-gradient(to right, var(--cor6), 
-    transparent);
+    background-image: linear-gradient(to right, var(--cor6),
+            transparent);
     margin-top: 20px;
     margin-bottom: 20px;
 }
-img{
+
+img {
     display: block;
     width: 200px;
     margin: auto;
-  
+
 
 }
-.perfil{
+
+.perfil {
     margin: auto;
     border-radius: 50%;
     width: 210px;
     background-color: var(--cor5);
     padding: 5px;
 }
-ul{
+
+ul {
     line-height: 1.5em;
     padding-left: 10px;
     list-style-type: '\1F47E\00A0\00A0';
     list-style-position: inside;
 }
-strong{
-     color: var(--cor3);
+
+strong {
+    color: var(--cor3);
 }
-.icon{
-      min-width: 300;
+
+.icon {
+    min-width: 300;
     position: relative;
     display: inline-flex;
     width: 40px;
     border-radius: 50%;
 
 }
-.redes-sociais{
-padding-left: 10px;
+
+.redes-sociais {
+
+    padding-left: 10px;
     list-style-type: '\00A0\00A0';
     list-style-position: inside;
     columns: 4;
+
 }
-a{
+
+a {
     min-width: 200;
     text-indent: 10px;
     position: sticky;
@@ -102,20 +119,24 @@ a{
     font-size: 1.5em;
     font-weight: bold;
 }
-a:hover{
-  
+
+a:hover {
+
     color: var(--cor0);
 }
-a:visited{
+
+a:visited {
     color: var(--cor2);
 }
-slot{
+
+slot {
     text-indent: 0px;
     display: inline;
     position: absolute;
     padding: 2px;
     top: 6px;
 }
-slot:hover{
+
+slot:hover {
     text-decoration: underline;
 }
