@@ -140,3 +140,11 @@ slot {
 slot:hover {
     text-decoration: underline;
 }
+abbr{
+    text-decoration: none;
+}
+abbr:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: var(--cor0);
+}
